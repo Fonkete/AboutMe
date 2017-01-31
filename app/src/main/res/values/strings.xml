@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="biography">Hola soy Cutiko, el profe de la clase</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

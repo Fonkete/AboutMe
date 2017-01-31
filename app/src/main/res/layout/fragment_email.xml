@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="g2.aboutme.EmailFragment">
+
+<Button
+    android:drawableRight="@mipmap/ic_send_white_24dp"
+    android:textColor="@android:color/white"
+    android:id="@+id/contactBtn"
+    android:text="CONTACTAME"
+    android:theme="@style/AccentButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/msgWrapper"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Su mensaje">
+
+        <EditText
+            android:id="@+id/msgEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:drawableRight="@mipmap/ic_mail_outline_black_24dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/sendBtn"
+        android:visibility="gone"
+        android:text="ENVIAR"
+        android:theme="@style/AccentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+</LinearLayout>
